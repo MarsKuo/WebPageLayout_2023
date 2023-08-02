@@ -4,19 +4,142 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap"
+    rel="stylesheet">
+
   <title>Document</title>
   <link rel="stylesheet" href="./reset.css">
-  <style lang="css">
-    a {
-      justify-content: center;
-      justify-content: flex-end;
-      justify-content: flex-end;
-    }
-  </style>
+  <link rel="stylesheet" href="./style.css">
+
 </head>
 
 <body>
-  <h1>Week2</h1>
+  <nav class="bg-primary">
+    <ul class="container d-flex justify-between text-primary align-center ">
+      <li><a class="text-primary" href="#">WILLIAM LEE</a></li>
+      <li><a class="text-primary" href="#">BASED IN TAIWAN</a></li>
+      <li><a class="text-primary" href="#">CURRENTLY FRONT END <br />ENGINEER AT
+          HEXSCHOOL</a></li>
+      <li><a class="text-primary" href="#">CONTACT ME</a></li>
+    </ul>
+  </nav>
+  <div class="banner bg-primary py-72">
+    <div class="container d-flex align-center">
+      <img class="mr-24" src="./image/people.png" alt="people ">
+      <div class="d-flex flex-column  ">
+        <p class="text-primary fz-64">Hi</p>
+        <p class="text-primary fz-64">I’m a front-end developer</p>
+        <h2 class="text-green fz-128 align-self-end">William</h2>
+        <a class="align-self-end btn-1" href="#">
+          contact me
+          <img src="./image/arrow_outward.png" alt="">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="Introduction py-160">
+    <div class="container d-flex text-primary">
+      <div class="desc mr-24">
+        <h3 class="fz-64 mb-36 ">Introduction</h3>
+        <p class="fz-24 mb-32 ">Hi, I'm William Lee, a Front-End Developer with
+          a
+          passion for
+          building beautiful and responsive websites that provide an optimal
+          user experience.</p>
+        <img src="./image/sparkle-sm.png" alt="">
+        <img src="./image/sparkle-sm.png" alt="">
+        <img src="./image/sparkle-sm.png" alt="">
+      </div>
+      <div class="descimg">
+        <img src="./image/sparkle.png" alt="">
+        <img src="./image/photographer.png" alt="">
+        <img src="./image/people-2.png" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="container py-160 d-flex justify-between align-center aboutMe">
+
+    <ul class="d-flex flex-wrap justify-between text-secondary">
+      <li class="mb-24">
+        <p class="fz-20">01</p>
+        <p class="fz-20">Attention to Detail</p>
+        <p>Meticulous code analysis and optimization.</p>
+      </li>
+      <li class="mb-24">
+        <p class="fz-20">02</p>
+        <p class="fz-20">Adaptability</p>
+        <p>Swift learning of new technologies.</p>
+      </li>
+      <li>
+        <p class="fz-20">03</p>
+        <p class="fz-20">Problem Solver</p>
+        <p>Identifying and resolving issues.</p>
+      </li>
+      <li>
+        <p class="fz-20">04</p>
+        <p class="fz-20">Team Player</p>
+        <p>Collaborates and shares ideas.</p>
+      </li>
+    </ul>
+    <article class="flex-column justify-between">
+      <h3 class="fz-64 mb-36">About Me</h3>
+      <p class="fz-24 text-secondary">With over 5 years of experience, I'm
+        proficient in HTML,
+        CSS,
+        JavaScript, jQuery, and React. I have a strong understanding of user
+        experience design and accessibility. I'm always learning new
+        technologies and techniques to stay up-to-date in the field.</p>
+    </article>
+  </div>
+  <div class="ContactMe">
+    <div class="container d-flex align-center justify-between">
+      <div class="w-50 d-flex fz-64 ">
+        <p class="text-white">
+          CONTACT ME
+        </p>
+        <img src="./image/trending_flat_black_24dp 1.png" alt="">
+      </div>
+      <div class="iconList  d-flex">
+        <a href="#"><img src="./image/discord.png" alt=""></a>
+        <a href="#"><img src="./image/instagram.png" alt=""></a>
+        <a href="#"><img src="./image/message.png" alt=""></a>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="myProduct container py-160">
+    <h3 class="fz-64 ml-auto">
+      My Projects
+    </h3>
+    <div class="content d-flex">
+      <img class="mr-24" src="./image/Rectangle 10.png" alt="">
+      <section>
+        <div class="top d-flex">
+          <img class="mr-24" src="./image/Rectangle 15.png" alt="">
+          <div class="item d-flex flex-column justify-between align-start">
+            <p>I've worked on a variety of websites, including e-commerce sites,
+              blogs, and landing pages. I take pride in creating clean,
+              efficient, and user-friendly code.</p>
+            <button>SEE MORE <img src="./image/arrow_outward-white.png"
+                alt=""></button>
+          </div>
+        </div>
+        <div class="bottom  d-flex">
+          <img class="mr-24" src="./image/Rectangle 14.png" alt="">
+          <img src="./image/Rectangle 29.png" alt="">
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <footer class="py-40">
+    <p class="text-white text-center">all rights reserved @hexschool2023</p>
+  </footer>
 </body>
 
 </html>

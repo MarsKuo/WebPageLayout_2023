@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+}
+img {
+  vertical-align: middle;
+}
+body {
+  height: 2000px;
+  font-family: 'Bruno Ace SC', cursive;
+  line-height: 1.5;
+  font-size: 16px;
+}
+.container {
+  width: 1296px;
+  margin: 0 auto;
+}
+.bg-primary {
+  background-color: #000;
+}
+.text-white {
+  color: white;
+}
+.text-center {
+  text-align: center;
+}
+.d-flex {
+  display: flex;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-column {
+  flex-direction: column;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.align-center {
+  align-items: center;
+}
+.align-start {
+  align-items: flex-start;
+}
+.align-self-end {
+  align-self: flex-end;
+}
+.text-primary {
+  color: #d1d1d1;
+}
+.text-green {
+  color: #00ffa3;
+}
+.text-secondary {
+  color: #15161d;
+}
+.w-50 {
+  width: 50%;
+}
+.fz-20 {
+  font-size: 20px;
+}
+.fz-24 {
+  font-size: 24px;
+}
+.fz-64 {
+  font-size: 64px;
+}
+.fz-128 {
+  font-size: 128px;
+}
+a {
+  text-decoration: none;
+}
+/* banner  start*/
+.btn-1 {
+  padding: 12px 24px;
+  border-radius: 32px;
+  background: #fff;
+}
+.ml-auto {
+  margin-left: auto;
+}
+.py-72 {
+  padding: 72px 0;
+}
+.py-160 {
+  padding: 160px 0;
+}
+.py-40 {
+  padding: 40px 0;
+}
+.mr-20 {
+  margin-right: 20px;
+}
+.mr-24 {
+  margin-right: 24px;
+}
+.mb-24 {
+  margin-bottom: 24px;
+}
+.mb-36 {
+  margin-bottom: 36px;
+}
+.mb-32 {
+  margin-bottom: 32px;
+}
+/* Introduction */
+.Introduction {
+  background-image: url('./image/background-img.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+.desc {
+  width: 526px;
+}
+.aboutMe li {
+  width: 48%;
+}
+.aboutMe ul {
+  width: 636px;
+}
+.aboutMe article {
+  width: 526px;
+}
+/* ContactMe */
+.ContactMe {
+  background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+  padding: 96px 0;
+}
+.ContactMe .iconList a {
+  display: block;
+  margin-right: 20px;
+}
+.ContactMe .iconList a:hover {
+  box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+}
+
+.ContactMe .iconList img {
+  width: 162px;
+  height: 162px;
+  object-fit: cover;
+  border-radius: 40px;
+}
+
+.myProduct h3 {
+  width: 746px;
+}
+.myProduct .top {
+  margin-bottom: 28px;
+}
+.myProduct .item p {
+  color: #15161d;
+  margin-bottom: auto;
+}
+.myProduct .item button {
+  padding: 12px 24px;
+  border-radius: 32px;
+  background: #000;
+  color: #fff;
+  text-align: center;
+}
+
+footer {
+  background: #000;
+}
